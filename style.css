@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background-color: #222;
     overflow: hidden;
+    overflow-y: auto;
   }
   
   .mobile-container {
@@ -14,11 +15,12 @@ body {
     height: 667px;
     background-color: #ffffff
     ;
-    color: white;
+    color: #231f20;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden;
+    overflow-y: auto;
   }
   
   .topnav {
