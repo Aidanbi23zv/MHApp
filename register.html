@@ -17,32 +17,37 @@
     <script src="script.js"></script>
     <script defer src="https://design-system.digital.nhs.uk/cdn/v0.166.0/scripts/nhsd-frontend.js"></script>
 
-    <title>Diary Entry</title>
+    
+    <title>Register</title>
 </head>
-<body>
 
-    <div class="mobile-container">
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-          <a href="index.html" class="active">
-            <img src="Logo.jpeg" alt="logo" width="100">
-          </a>
-          <div id="myLinks">
-            <a href="register.html">Register</a>
-            <a href="diary.html">Diary Entry</a>
-            <a href="history.html">Diary History</a>
-            <a href="manual.html">Mental Health Manual</a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-        
-        <div style="padding-left:16px">
-          <h3>Diary Entry</h3>
-          <p>This is where users can write their diary entries.</p>
-        </div>
+<div class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="index.html" class="active">
+        <img src="Logo.jpeg" alt="logo" width="100">
+      </a>
+      <div id="myLinks">
+        <a href="diary.html">Diary Entry</a>
+        <a href="history.html">Diary History</a>
+        <a href="manual.html">Mental Health Manual</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-
-</body>
-</html>
+    <div class="content">
+        <h1>Register to CollectiveCalm</h1>
+        <form action="register.php" method="POST">
+            <p>Firstname</p>
+            <input type="text" name="firstname"><br>
+            <p>Surname</p>
+            <input type="text" name="surname"><br>
+            <p>Email</p>
+            <input type="text" name="email"><br>
+            <p>Do you accept the terms and conditions?</p>
+            <input type="checkbox" required name="terms" value="yes"><br><br>
+            <input id="btn" type = "Submit" value="Register">
+        </form>
+        </div>
+</div>
