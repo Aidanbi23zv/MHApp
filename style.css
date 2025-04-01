@@ -77,15 +77,10 @@ body {
   }
   
   .active {
-    background-color: #005eb8
-    ;
+    background-color: #005eb8;
     color: white;
   }
-
-  .pp {
-    color:  	#212b32 ;
-  }
-
+  
   #urgent{
     background-color: rgb(243, 83, 83);
     opacity: 80%;
