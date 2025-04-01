@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
+    background-color: #928f8f;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -23,10 +23,30 @@ body {
     overflow-y: auto;
   }
   
+  .dark-mode {
+    background-color: #000000; /* Darker background */
+    color: white; /* White text color */
+  }
+
+  #theme-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #596AFF;
+  }
+
+
   .topnav {
     overflow: hidden;
     background-color: #005eb8;
-    position: relative;
+    position: sticky; /* Sticky position within the container */
+    top: 0; /* Keeps it at the top of the mobile-container */
+    left: 0;
+    width: 100%; /* Ensures it covers the full width of the mobile container */
+    z-index: 1000; /* Keeps it above other content */
+    display: flex; /* Aligns the items horizontally */
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Vertically aligns the items */
+    padding: 5px;
   }
   
   .topnav #myLinks {
@@ -79,7 +99,7 @@ body {
 
   #urgent{
     background-color: rgb(243, 83, 83);
-    opacity: 60%;
+    opacity: 80%;
     border-radius: 10px;
     padding: 5px;
     position: absolute;
@@ -88,3 +108,4 @@ body {
     text-decoration: underline;
     font-weight: 802;
 }
+
