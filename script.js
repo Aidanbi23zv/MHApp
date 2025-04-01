@@ -6,3 +6,8 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+  function toggleDarkMode() {
+    // Toggle the 'dark-mode' class on the body
+    document.body.classList.toggle('dark-mode');
+}

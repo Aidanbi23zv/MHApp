@@ -22,17 +22,6 @@ body {
     overflow: hidden;
     overflow-y: auto;
   }
-  
-  .dark-mode {
-    background-color: #000000; /* Darker background */
-    color: white; /* White text color */
-  }
-
-  #theme-btn {
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #596AFF;
-  }
 
 
   .topnav {
@@ -109,3 +98,25 @@ body {
     font-weight: 802;
 }
 
+/* Dark mode styles */
+.dark-mode .mobile-container {
+  background-color: #000000; /* Black background for mobile container */
+  color: white; /* White text color */
+}
+
+.dark-mode .topnav {
+  background-color: #333333; /* Darker background for topnav */
+}
+
+.dark-mode .topnav a {
+  color: white; /* White color for links */
+}
+
+.dark-mode .topnav a:hover {
+  background-color: #444444; /* Slightly lighter background on hover */
+}
+
+.dark-mode #urgent {
+  background-color: rgb(243, 83, 83); /* Urgent background stays red */
+  color: white; /* White text color for urgent help */
+}
