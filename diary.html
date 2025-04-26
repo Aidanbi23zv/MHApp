@@ -43,6 +43,15 @@
         <div style="padding-left:16px">
           <h3>Diary Entry</h3>
           <p>This is where users can write their diary entries.</p>
+          <form action="#" method="post">
+            <label for="diary-entry">Your Diary Entry:</label><br>
+            <textarea id="diary-entry" name="diary-entry" rows="10" cols="35" placeholder="Write your thoughts here..." style="resize: none;"></textarea><br>
+            <label for="sleep_entry">Hours Slept:</label><br>
+            <input type="number" id="sleep_entry" name="sleep_entry" min="0" max="24" step="0.5" placeholder="0"><br>
+            <label for="exercise_entry">Exercise in Minutes</label><br>
+            <input type="number" id="exercise_entry" name="exercise_entry" min="0" max="600" placeholder="0"><br> 
+            <button type="submit">Save Entry</button>
+          </form>
         </div>
     </div>
 

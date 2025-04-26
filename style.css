@@ -96,7 +96,7 @@ body {
 /* Dark mode styles */
 .dark-mode .mobile-container {
   background-color: #000000; /* Black background for mobile container */
-  color: white; /* White text color */
+  color: rgb(65,182,230); /* NHS Light Blue text color */
 }
 
 .dark-mode .topnav {
