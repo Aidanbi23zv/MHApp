@@ -135,3 +135,14 @@ body {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+#mood {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#mood img{
+  width: 80px;
+  height: auto;
+}
